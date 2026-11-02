@@ -12,7 +12,7 @@
 > [!NOTE]
 > **Publication approved by the data source.** Public release of this report, its results and its figures, including the de-identified EMBED mammograms and Grad-CAM maps, was approved in writing on 2 November 2026 by Dr. Hari Trivedi, Co-director of the HITI Lab at Emory University, which maintains the EMBED dataset.
 
-Team project at Southwest Petroleum University, School of Computer Science, supervised by Prof. Li Ping (Department of Artificial Intelligence). Team lead: Imad Lembachar, with Meriem Boudira, Mohammed Ismail Touati and Ghizlane Ben Mhamed. September–November 2026. This study is phase 2 of the team's medical-imaging work, which began as [NeuroSentry](#background-neurosentry-phase-1) on head CT.
+Team project at Southwest Petroleum University, School of Computer Science, supervised by Prof. Li Ping (Department of Artificial Intelligence). Team lead: Imad Lembachar, with Meriem Boudira, Mohammed Ismail Touati and Ghizlane Ben Mhamed. September–November 2026. This study is phase 2 of the team's medical-imaging work, which began as [NeuroSentry](https://github.com/Lembachar/NeuroSentry) on head CT.
 
 <p align="center"><img src="results/report_figures/fig03.jpeg" alt="Figure 3: Example EMBED images from Task A after crop and resize." width="100%"></p>
 <p align="center"><sub><b>Figure 3.</b> Example EMBED images from Task A after crop and resize.</sub></p>
@@ -180,7 +180,7 @@ Every figure from the [report](report/EMBED_breast_cancer_report.pdf), with its 
 
 ## Background: NeuroSentry (phase 1)
 
-The team started with **NeuroSentry**, intracranial hemorrhage detection on the CQ500 head-CT dataset (491 scans). The DICOM pipeline, series selection, three-window preprocessing and a DenseNet-121 baseline were validated end to end. The work was then paused, and the team carried the same methods (patient-level splits, locked test sets, bootstrap CIs, Grad-CAM) into this mammography study.
+The team started with **[NeuroSentry](https://github.com/Lembachar/NeuroSentry)**, intracranial hemorrhage detection on the CQ500 head-CT dataset (491 scans). The DICOM pipeline, series selection, three-window preprocessing and a DenseNet-121 baseline were validated end to end. The work was then paused, and the team carried the same methods (patient-level splits, locked test sets, bootstrap CIs, Grad-CAM) into this mammography study.
 
 ## Repository layout
 
