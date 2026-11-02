@@ -1,0 +1,8 @@
+{
+  "fetch_workers": 32, "fetch_decoders": 3, "loader_workers": 2,
+  "eval": {"bootstrap": 50},
+  "train": {
+    "a": {"image_size": [768, 512], "batch_size": 6, "accum": 4, "epochs": 1, "lr": 1e-4, "weight_decay": 0.01, "label_smoothing": 0.0, "patience": 4, "folds": [0, 1]},
+    "b": {"image_size": [512, 384], "batch_size": 12, "accum": 2, "epochs": 1, "lr": 1e-4, "weight_decay": 0.01, "label_smoothing": 0.05, "patience": 3, "folds": [0]}
+  }
+}

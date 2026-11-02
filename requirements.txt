@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pandas
+pyarrow
+scikit-learn
+scipy
+statsmodels
+matplotlib
+opencv-python
+pydicom
+boto3
+python-dotenv
+requests
+kaggle

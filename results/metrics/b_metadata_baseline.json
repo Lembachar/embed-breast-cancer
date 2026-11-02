@@ -1,0 +1,16 @@
+{
+  "n": 1826,
+  "image_stack_mean_of_models": 0.3947863566253103,
+  "exam_kind": 0.3248995983935743,
+  "exam_kind|acc": 0.42825848849945236,
+  "exam_kind|macro_auc": 0.734735495276373,
+  "exam_kind_plus_images": 0.48062886538176824,
+  "exam_kind+scanner": 0.3228113356547974,
+  "exam_kind+scanner|acc": 0.42606790799561883,
+  "exam_kind+scanner|macro_auc": 0.7407644488339744,
+  "exam_kind+scanner_plus_images": 0.4872415273460382,
+  "exam_kind+scanner+age": 0.34009901935566117,
+  "exam_kind+scanner+age|acc": 0.44414019715224534,
+  "exam_kind+scanner+age|macro_auc": 0.7726929641362137,
+  "exam_kind+scanner+age_plus_images": 0.49262007836640304
+}

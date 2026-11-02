@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+data/
+outputs*/
+*.pt
+*.parquet
+*.npz

@@ -1,0 +1,10 @@
+{
+  "mean_of_models|mean_pool": 0.3947863566253103,
+  "mean_of_models|max_pool": 0.40576995888476075,
+  "logistic|mean_pool": 0.3988877561782735,
+  "logistic|max_pool": 0.39542548438009334,
+  "logistic|mean_and_max": 0.3963759564548756,
+  "lightgbm|mean_pool": 0.39663712648410737,
+  "lightgbm|max_pool": 0.38276040083308877,
+  "lightgbm|mean_and_max": 0.40251047961753245
+}

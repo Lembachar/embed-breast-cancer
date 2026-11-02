@@ -1,0 +1,46 @@
+{
+  "fetch_workers": 32,
+  "fetch_decoders": 3,
+  "loader_workers": 3,
+  "eval": {
+    "bootstrap": 1000
+  },
+  "train": {
+    "a": {
+      "image_size": [
+        1536,
+        1024
+      ],
+      "batch_size": 4,
+      "accum": 6,
+      "epochs": 15,
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "label_smoothing": 0.0,
+      "patience": 4,
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "b": {
+      "image_size": [
+        1024,
+        768
+      ],
+      "batch_size": 8,
+      "accum": 3,
+      "epochs": 8,
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "label_smoothing": 0.05,
+      "patience": 3,
+      "folds": [
+        0
+      ]
+    }
+  }
+}
