@@ -4,6 +4,9 @@
 
 📄 **[Read the full report (PDF, 20 pages)](report/EMBED_breast_cancer_report.pdf)**
 
+> [!NOTE]
+> **Publication approved by the data source.** Public release of this report, its results and its figures, including the de-identified EMBED mammograms and Grad-CAM maps, was approved in writing on 2 November 2026 by Dr. Hari Trivedi, Co-director of the HITI Lab at Emory University, which maintains the EMBED dataset.
+
 Team project at Southwest Petroleum University, School of Computer Science, supervised by Prof. Li Ping (Department of Artificial Intelligence). Team lead: Imad Lembachar, with Meriem Boudira, Mohammed Ismail Touati and Ghizlane Ben Mhamed. September–November 2026.
 
 ---
@@ -64,7 +67,7 @@ Run order: `python src/run_pipeline.py` (add `--dry-run` for a small smoke test,
 
 ## Data and privacy
 
-No images, per-patient tables, predictions or model weights are included, in line with the EMBED data-use terms. Public sharing of the report was approved by the Emory HITI Lab.
+Results, charts and the full report (with its de-identified mammogram figures) are published with written approval from Dr. Hari Trivedi of the Emory HITI Lab, the team behind EMBED, given on 2 November 2026. The repository does not redistribute the dataset itself: no raw images, per-patient tables, predictions or model weights are included. To reproduce the work, request your own access to EMBED from Emory.
 
 ## Citation
 
